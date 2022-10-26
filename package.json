@@ -1,0 +1,21 @@
+{
+  "name": "CRUD Application",
+  "version": "0.0.1",
+  "description": "Group1 CRUD apllication",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json -p 8888 -w true"
+  },
+  "keywords": [
+    "CRUD",
+    "app",
+    "native",
+    "JS"
+  ],
+  "author": "Group1",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
